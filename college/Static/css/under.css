@@ -1,0 +1,189 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{
+    margin: 0;!important;
+    padding: 0;!important;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+/*firefox表格*/
+@-moz-document url-prefix() {
+    fieldset { display: table-cell; }
+}
+a:hover{
+    text-decoration: none;
+}
+a:focus{
+    text-decoration: none;
+    outline: none;!important;
+}
+li{
+    list-style: none;!important;
+}
+li:focus{
+    outline: none;!important;
+}
+
+textarea{
+    resize: none;
+}
+/*字体*/
+html,body{
+    font-family:微软雅黑;
+}
+/*--------------banner图---------------*/
+.sub-banner{
+    background: #888888;
+    position: relative;
+}
+.imgMiddle{
+    margin: 0 auto;
+    max-height: 385px;
+}
+.sub-banner .hTitle{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display:-webkit-box;  /* iOS 6-, Safari 3.1-6 */
+    display:-webkit-flex; /* Chrome */
+    display:-moz-box;     /* Firefox 19 */
+    display:-ms-flexbox;
+    display:flex;  /*flex容器*/
+    display: -webkit-flex;
+    -webkit-align-items:center;
+    -moz-align-items:center;
+    -ms-align-items:center;
+    -o-align-items:center;
+    align-items:center;
+    padding-bottom: 40px;
+}
+.sub-banner .hTitle h1{
+    font-size: 50px;
+    display: inline-block;
+    padding: 10px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    color: #FFFFFF;
+    background: rgba(29, 29, 29, 0.7);
+}
+/* ----------副导航--------- */
+.sub-navbar{
+    background: #1d1d1d;
+    height: 60px;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0;
+    line-height: 40px;
+}
+/*副导航a链接*/
+.sub-navbar a{
+    color: #55b8f5;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.sub-navbar a:hover{
+    color:  #0583d1;
+}
+.sub-navbar .ui-tabs-active a{
+color: #ffffff;
+}
+.sub-navbar li+li{
+    border-left:1px dotted #666666 ;
+}
+.sub-navbar li{
+    padding: 0;
+}
+/*-----------脚部-------------*/
+.sub-footer{
+    height: 120px;
+    border-top: 4px solid #173D6E;
+    background: #eeeeee;
+    margin: 50px 0 0 0;
+    padding: 0;
+    display:-webkit-box;  /* iOS 6-, Safari 3.1-6 */
+    display:-webkit-flex; /* Chrome */
+    display:-moz-box;     /* Firefox 19 */
+    display:-ms-flexbox;
+    display:flex;  /*flex容器*/
+    -webkit-align-items:center;
+    -moz-align-items:center;
+    -ms-align-items:center;
+    -o-align-items:center;
+    align-items:center;
+}
+.sub-footer p,.sub-footer a{
+    color: #999999;
+    font-size: 12px;
+}
+/* -------内容一---------- */
+.section-one{
+    background: #f1f1f1;
+    padding: 20px 0 30px 0;
+}
+/*内容六*/
+.section-six{
+    background: #ffffff;
+}
+/*----------------------*/
+/*-----------内容六导航左侧内容------------*/
+.subnav-Tab ul a{
+    display: inline-block;
+    background: url("../img/bg-tabs-static.png")  no-repeat;
+    background-size: 100% 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+    color: #0a81cd;
+    line-height: 60px;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    font-weight: bold;
+}
+.subnav-Tab ul a:hover{
+    background: url("../img/bg-tabs-hover.png")  no-repeat;
+    background-size: 100% 100%;
+    color: #ffffff;
+}
+.subnav-Tab .ui-tabs-active a{
+    background: url("../img/bg-tabs-active.png")  no-repeat;
+    background-size: 100% 100%;
+    color: #ffffff;
+}
+
+
+/*--------媒体查询-------------*/
+/*小于768px*/
+@media (max-width: 768px) {
+    /*副导航*/
+    .sub-navbar{
+        display: none;
+    }
+    /*内容六导航左侧内容*/
+    .subnav-Tab ul a{
+        background: url("../img/xs-bg_03.png")  no-repeat;
+        background-size: 100% 100%;
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+        font-weight: normal;
+        padding:0;
+    }
+    .subnav-Tab ul a:hover{
+        background: #0b6ebd;
+        color: #ffffff;
+    }
+    .subnav-Tab .ui-tabs-active a{
+        background: #05428a;
+        color: #ffffff;
+    }
+    .sub-banner .hTitle h1{
+        font-size: 28px;
+    }
+}
+@media (max-width: 300px) {
+    /*内容*/
+    body{
+        width: 300px;
+    }
+}

@@ -1,0 +1,112 @@
+<header>
+        <div class="nav-top">
+            <div class="container">
+                <!--左边列表-->
+                <ul class="col-md-6 col-sm-5">
+                    <li><a href="http://www.octomaster.com">Octomaster</a></li>
+                    <li><a href="http://www.chuanke.com/s1316621.html" target="_blank">DLO</a></li>
+                    <li><a href="http://wpa.qq.com/msgrd?v=3&uin=2253083725&site=qq&menu=yes">QQ留言</a></li>
+                    <li><a>校长信箱</a></li>
+                </ul>
+
+                <!--中英文切换-->
+                <div class="btn-group col-md-2 col-sm-3" data-toggle="buttons">
+                    <label class="btn btn-primary qieHan">
+                        <input type="radio" name="options" id="option1">中文
+                    </label>
+                    <label class="btn btn-primary active qieHan">
+                        <input type="radio" name="options" id="option2">English
+                    </label>
+                </div>
+
+                <!--右边搜索栏-->
+                <div class="form-group search-box col-md-3 col-sm-3">
+                    <div class="input-group input-group1">
+                        <input class="form-control form-control1" type="search" placeholder="全站搜索">
+                        <div class="input-group-addon ">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <!--左侧边导航栏按钮-->
+            <div class="menu-espanso">
+                <div id="menu" class="menu"></div>
+                <span class="linee linea1"></span>
+                <span class="linee linea2"></span>
+                <span class="linee linea3"></span>
+                <div class="voci-menu">
+                    <ul class="sub-navAll1">
+                        <foreach name="menu" item="vo">
+                            <a href="{$vo.nav_url}"><li class="leftNavLi">{$vo.nav_name}</li></a>
+                        </foreach>
+                        <!-- <a href="{:U('Home/Detail/index')}"><li class="leftNavLi">走进书院</li></a>
+                        <a href="{:U('Home/Admitted/index')}"><li class="leftNavLi">入读书院</li></a>
+                        <a href="{:U('Home/Dynamic/index')}"><li class="leftNavLi">书院动态</li></a>
+                        <a href="{:U('Home/Interaction/index')}"><li class="leftNavLi">分享互动</li></a>
+                        <a href="{:U('Home/Website/index')}"><li class="leftNavLi">AHA旗下活动</li></a> -->
+                    </ul>       
+                    <ul class="sub-navAll2">
+                         <foreach name="sub_menu" item="vo" >
+                            <a href="{$vo.nav_url}"><li class="leftNavLi atwoClick">{$vo.nav_name}</li></a>
+                        </foreach>
+                        <!-- <a href="#"><li class="leftNavLi atwoClick">媒体报道</li></a> -->
+                    </ul>         
+                </div>
+            </div>
+            <!--右侧边搜索按钮-->
+            <span type="button" id="searchBtn" class="navSearchBtn glyphicon glyphicon-search"></span>
+            <div class="searchLan">
+                <div class="form-group searchLan11">
+                    <div class="input-group">
+                        <input class="form-control" type="search" placeholder="全站搜索">
+                        <div class="input-group-addon ">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+
+                <!--头部logo-->
+                <a class="logo" href="{:U('Home/Index/index')}">
+                    <img src="{$web_config['web_logo']}">
+                </a>
+                <php>
+                    $nav_top1 = array_slice($menu_top,0,3);
+                    $nav_top2 = array_slice($menu_top,3);  
+                </php>
+                <div class="nav-listBox">
+                    <ul class="nav-list1">
+                        <foreach name="nav_top1" item="vo" key="k">
+                            <li>
+                                <a href="{$vo}">{$k}</a>
+                            </li>
+                        </foreach>
+                        <script>
+                        $('.nav-list1').first().addClass('text-center');
+                        </script>
+                        <!-- <li>
+                            <a href="{:U('Home/Detail/index')}">走进书院</a>
+                        </li>
+                         -->
+                    </ul>
+                    <ul class="nav-list2">
+                        <foreach name="nav_top2" item="vo" key="k">
+                            <li class="text-center">
+                                <a href="{$vo}">{$k}</a>
+                            </li>
+                        </foreach>
+                        <!-- 
+                        <li>
+                            <a href="{:U('Home/Website/index')}">AHA旗下网站</a>
+                        </li> 
+                        -->
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>

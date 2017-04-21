@@ -1,0 +1,3 @@
+<?php
+//000000000060a:4:{i:0;a:4:{s:6:"pic_id";s:1:"1";s:5:"title";s:28:"在家书院2016毕业晚会";s:7:"pic_url";s:18:"/Static/img/p1.jpg";s:8:"pic_link";s:0:"";}i:1;a:4:{s:6:"pic_id";s:1:"2";s:5:"title";s:19:"在家书院9岁啦";s:7:"pic_url";s:33:"/Static/img/20160205lkh194540.jpg";s:8:"pic_link";s:0:"";}i:2;a:4:{s:6:"pic_id";s:1:"3";s:5:"title";s:40:"AHA STORIES—露营篇10（完结篇）";s:7:"pic_url";s:18:"/Static/img/p3.jpg";s:8:"pic_link";s:0:"";}i:3;a:4:{s:6:"pic_id";s:1:"4";s:5:"title";s:21:"家校联盟的呼声";s:7:"pic_url";s:18:"/Static/img/p4.jpg";s:8:"pic_link";s:0:"";}}
+?>

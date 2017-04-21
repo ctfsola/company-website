@@ -1,0 +1,12 @@
+[ 2017-03-02T09:30:35+08:00 ] 127.0.0.1 /
+ERR: Think\Controller:_initialize方法不存在！
+
+[ 2017-03-02T09:35:34+08:00 ] 127.0.0.1 /
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-03-02T09:53:50+08:00 ] 127.0.0.1 /
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2017-03-02T11:22:55+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+ERR: Think\Controller:public_assign方法不存在！
+

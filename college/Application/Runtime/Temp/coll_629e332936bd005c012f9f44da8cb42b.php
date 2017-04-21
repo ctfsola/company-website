@@ -1,0 +1,3 @@
+<?php
+//000000000060a:3:{i:0;a:4:{s:7:"img_url";s:22:"/Static/img/lunbo4.jpg";s:7:"ad_link";s:0:"";s:13:"thumb_img_url";s:0:"";s:10:"thumb_link";s:0:"";}i:1;a:4:{s:7:"img_url";s:22:"/Static/img/lunbo3.jpg";s:7:"ad_link";s:0:"";s:13:"thumb_img_url";s:0:"";s:10:"thumb_link";s:0:"";}i:2;a:4:{s:7:"img_url";s:22:"/Static/img/lunbo1.jpg";s:7:"ad_link";s:0:"";s:13:"thumb_img_url";s:0:"";s:10:"thumb_link";s:0:"";}}
+?>

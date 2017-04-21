@@ -1,0 +1,28 @@
+[ 2017-03-10T09:43:43+08:00 ] 127.0.0.1 /
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article_temp(title,content,link,thumb_url,add_time) values($v[title],$v[content]' at line 1
+ [ SQL语句 ] : insert info article_temp(title,content,link,thumb_url,add_time) values($v[title],$v[content]),$v[link],$v[thumb_url],$v[add_time]
+
+[ 2017-03-10T09:47:19+08:00 ] 127.0.0.1 /
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'coll_article_temp(title,content,link,thumb_url,add_time) values($v[title],$v[con' at line 1
+ [ SQL语句 ] : insert info coll_article_temp(title,content,link,thumb_url,add_time) values($v[title],$v[content]),$v[link],$v[thumb_url],$v[add_time]
+
+[ 2017-03-10T10:47:46+08:00 ] 127.0.0.1 /
+ERR: 1146:Table 'college.coll_article_temp' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coll_article_temp`
+
+[ 2017-03-10T11:22:33+08:00 ] 127.0.0.1 /
+ERR: 1054:Unknown column '欢迎加入AHA' in 'field list'
+ [ SQL语句 ] : insert into coll_article_combine(title) VALUES(欢迎加入AHA-BJA国际高中部)
+
+[ 2017-03-10T11:25:47+08:00 ] 127.0.0.1 /
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[title])' at line 1
+ [ SQL语句 ] : insert into coll_article_combine(title) VALUES($v[title])
+
+[ 2017-03-10T11:26:17+08:00 ] 127.0.0.1 /
+ERR: 1054:Unknown column '欢迎加入AHA' in 'field list'
+ [ SQL语句 ] : insert into coll_article_combine(title) VALUES(欢迎加入AHA-BJA国际高中部)
+
+[ 2017-03-10T11:26:54+08:00 ] 127.0.0.1 /
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''title') VALUES(欢迎加入AHA-BJA国际高中部)' at line 1
+ [ SQL语句 ] : insert into coll_article_combine('title') VALUES(欢迎加入AHA-BJA国际高中部)
+

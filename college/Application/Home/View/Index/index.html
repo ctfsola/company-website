@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myapp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <title>在家书院 AT HOME ACADEMY</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="__PUBLIC__/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Static/css/mystyle.css">
+    <!--jquery-->
+    <script src="__PUBLIC__/bower_components/jquery/dist/jquery.min.js"></script>
+    <!--B3-->
+    <script src="__PUBLIC__/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/Static/js/nav.js"></script>
+    <!--兼容性-->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div ng-controller="indexCtrl">
+    <!--头部-->
+    <include file="Public/header"/>
+   
+    <!--轮播-->
+    <div class="lunbo">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <foreach name="adv_data" item="vo">
+                    <div class="item banner_lunbo_pic">
+                        <img src="{$vo.img_url}" style="width: 100%" alt="...">
+                    </div>
+                </foreach>
+                <script>$('.banner_lunbo_pic').first().addClass('active');</script>
+            </div>
+        </div>
+    </div>
+    <!--中间模块-->
+    <div class="subnav-section-wrap">
+        <!--点击列表切换------动态和更新------>
+        <div class="section">
+            <div class="tabBox container">
+                <ul id="myTab" class="nav nav-tabs">
+                    <li class="pull-left">
+                        <span  style="font-size: 26px;line-height: 60px;color: #0A2B66;margin-left: 15px">ACADEMY<span style="color: #8d2000"> & </span>Today</span>
+                    </li>
+                    <li class="pull-right">
+                        <a href="#zjgx" data-toggle="tab">最近更新</a>
+                    </li>
+                    <li class="active pull-right">
+                        <a href="#dongTai" data-toggle="tab">动态</a>
+                    </li>
+                </ul>
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane  in active" id="dongTai">
+                   
+                        <div class="main">
+                            <div class="mo">
+                                <foreach name="notice_1" item="vo">
+                                    <img src="{$vo.thumb_url}" class="biglink pull">
+                                    <div class="bd">
+                                        <h2 class="category">动态</h2>
+                                        <p class="epsilon">
+                                        <a href="{$vo.link}" class="a1">{$vo.content|mb_substr=0,50,'utf-8'}
+                                            ...... </a></p>
+                                        <p>{$vo['add_time']|date="Y-m-d",###}</p>
+                                    </div>
+                                </foreach>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="aside">
+                            <ul class="link-list list-unstyled">
+                                 <foreach name="notice_3" item="vo">
+                                <li>
+                                    <div class="epsilon">
+                                        <a href="{$vo.link}" class="a1">
+                                            <h4>{$vo.title}</h4>
+                                            <span class="f-size14">{$vo.content|mb_substr=0,50,'utf-8'}.....<br>{$vo.add_time|date="Y-m-d",###}</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                </foreach>
+                                <!-- 
+                                <li>
+                                    <div class="epsilon">
+                                        <a href="" class="a1">
+                                            <h4>在家书院英文“冬季学校”（2016年1月18-29日）</h4>
+                                            <span class="f-size14">全日制国际学校“在家书院”今年寒假照例开办“冬季学校”，让您的 ...... <br>2016-01-04</span>
+                                        </a>
+                                    </div>
+                                </li> -->
+                            </ul>
+                            <p class="align-right"><a href="{:U('Home/Dynamic/index')}" class="btn btn-plain">更多消息<span
+                                    class="glyphicon glyphicon-chevron-right"></span></a>
+                            </p>
+                        </div>
+                   
+                    </div>
+                    <div class="tab-pane " id="zjgx">
+                        <div class="main">
+                            <div class="mo">
+                            <foreach name="latest_1" item="vo">
+                                <img src="{$vo.thumb_url}" class="biglink pull">
+                                <div class="bd">
+                                    <h2 class="category">最近更新</h2>
+                                    <p class="epsilon"><a href="{$vo.link}" class="a1">{$vo.content|mb_substr=0,50,'utf-8'}
+                                        ...... </a></p>
+                                    <p>{$vo['add_time']|date="Y-m-d",###}</p>
+                                </div>
+                            </foreach>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="aside">
+                            <ul class="link-list list-unstyled">
+                                <foreach name="latest_3" item="vo">
+                                <li>
+                                    <div class="epsilon">
+                                        <a href="{$vo.link}" class="a1">
+                                            <h4>{$vo.title}</h4>
+                                            <span class="f-size14"> {$vo.content|mb_substr=0,50,'utf-8'}.....<br>{$vo.add_time|date="Y-m-d",###}</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                </foreach>
+                                
+                            </ul>
+                            <p class="align-right"><a href="{:U('Home/Dynamic/index')}" class="btn btn-plain">更多消息<span
+                                    class="glyphicon glyphicon-chevron-right"></span></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---书院新闻和书院相册模块------>
+        <div class="section-alt">
+            <div class="container">
+                <div class="lc gr">
+                    <div class="">
+                        <!----左边---书院新闻---已完成--->
+                        <div class="upcoming-events section-light col-lg-4 col-md-4">
+                            <h2>书院新闻</h2>
+                            <ul class="event-list">
+                            <foreach name="news_3" item="vo">
+                                <php>
+                                    $month = date("m",$vo['add_time']);
+                                    $mon = mon_to_en($month);
+                                    //dump($mon);exit;
+                                </php>
+                                
+                                <li class="h-event mo">   
+                                    <time class="pull dt-start calendar">{$mon} <span class="day">{$vo.add_time|date="d",###}</span></time>
+                                    <div class="bd">
+                                        <h4 class="epsilon p-name mgTop0">
+                                            <a href="{$vo.link}" class="a1">{$vo.title}</a>
+                                        </h4>
+                                        <p class="f-size14">
+                                            <a href="{$vo.link}" class="a1">{$vo.content|mb_substr=0,50,'utf-8'}......</a>
+                                        </p>{$vo.add_time|date="Y-m-d",###}
+                                    </div>
+                                </li>
+                            </foreach>
+                            </ul>
+                            <p class="btn-contain flr"><a href="{:U('Home/Dynamic/index')}" class="a1 btn btn-plain">在家书院更多动态</a></p>
+                        </div>
+                        <!----右边---书院相册-->
+                        <div class="spotlight-on col-lg-8 col-md-8">
+                            <h2>书院相册</h2>
+                            <div class="ulBox">
+                                <ul class="list-inline col-md-12" id="pic_list">
+                                    <foreach name="index_pic" item="vo">
+                                        <li class=" col-md-6 col-sm-6">
+                                            <div class="thumbnail">
+                                                <h4 class="text-center imgTextColor1">
+                                                    {$vo.title}
+                                                </h4>
+                                                <img src="{$vo.pic_url}" alt="{$vo.title}" class="pic-size"></div>
+                                        </li>
+                                    </foreach>
+                                    <!-- <li class=" col-md-6 col-sm-6">
+                                        <div class="thumbnail">
+                                            <h4 class="text-center imgTextColor2">
+                                                AHA STORIES—露营篇
+                                            </h4>
+                                            <img src="/Static/img/xc2.jpg" class="pic-size pic-size2"></div>
+                                    </li>
+                                    <li class=" col-md-6 col-sm-6">
+                                        <div class="thumbnail">
+                                            <h4 class="text-center imgTextColor3">
+                                                在家书院9岁啦
+                                            </h4>
+                                            <img src="/Static/img/xc3.jpg" class="pic-size"></div>
+                                    </li>
+                                    <li class=" col-md-6 col-sm-6">
+                                        <div class="thumbnail">
+                                            <h4 class="text-center imgTextColor4">
+                                                在家书院2015毕业晚会
+                                            </h4>
+                                            <img src="/Static/img/xc4.jpg" class="pic-size"></div>
+                                    </li> -->
+                                </ul>
+                            </div>
+                            <script>
+                                var picwidth1  = $('#pic_list li').eq(0).children().children('img').width();
+                                var picheight1 = $('#pic_list li').eq(0).children().children('img').height();
+                                var picwidth2  = $('#pic_list li').eq(1).children().children('img').width();
+                                var picheight2  = $('#pic_list li').eq(1).children().children('img').height();
+                                var picwidth   = picwidth1>picwidth2?picwidth1:picwidth2;                     
+                                var picheight  = picheight1>picheight2?picheight1:picheight2;                     
+                                $('#pic_list li').eq(0).children().children('h4').addClass('imgTextColor1');
+                                $('#pic_list li').eq(1).children().children('h4').addClass('imgTextColor2');
+                                $('#pic_list li:eq(2)').children().children('h4').addClass('imgTextColor3');
+                                $('#pic_list li:eq(3)').children().children('h4').addClass('imgTextColor4');
+                                $('#pic_list li').children().children('img').width(picwidth).height(picheight);
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------脚部------已完成----->
+    <include file="Public/footer_list"/>
+</div>
+</body>
+</html>
+
+

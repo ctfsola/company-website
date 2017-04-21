@@ -1,0 +1,591 @@
+[ 2017-02-28T11:35:54+08:00 ] 127.0.0.1 /addmitted
+ERR: 无法加载控制器:Addmitted
+
+[ 2017-02-28T11:41:09+08:00 ] 127.0.0.1 /information.html
+ERR: 无法加载控制器:Information
+
+[ 2017-02-28T11:41:14+08:00 ] 127.0.0.1 /enter.html
+ERR: 无法加载控制器:Enter
+
+[ 2017-02-28T11:41:31+08:00 ] 127.0.0.1 /enter.html
+ERR: 无法加载控制器:Enter
+
+[ 2017-02-28T11:42:28+08:00 ] 127.0.0.1 /enter.html
+ERR: 无法加载控制器:Enter
+
+[ 2017-02-28T11:42:37+08:00 ] 127.0.0.1 /assets/css/nav.css
+ERR: 无法加载控制器:Assets
+
+[ 2017-02-28T11:42:37+08:00 ] 127.0.0.1 /bower_components/jquery-ui-1.11.4.custom/jquery-ui.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T11:42:37+08:00 ] 127.0.0.1 /bower_components/bootstrap/dist/css/bootstrap.css
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T11:42:37+08:00 ] 127.0.0.1 /bower_components/jquery-ui-1.11.4.custom/external/jquery/jquery.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T11:42:37+08:00 ] 127.0.0.1 /bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T11:42:37+08:00 ] 127.0.0.1 /assets/css/enter.css
+ERR: 无法加载控制器:Assets
+
+[ 2017-02-28T11:42:37+08:00 ] 127.0.0.1 /assets/js/nav.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-02-28T11:42:37+08:00 ] 127.0.0.1 /bower_components/jquery-ui-1.11.4.custom/jquery-ui.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T11:42:37+08:00 ] 127.0.0.1 /bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T11:42:37+08:00 ] 127.0.0.1 /assets/js/nav.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-02-28T11:42:46+08:00 ] 127.0.0.1 /enter.html
+ERR: 无法加载控制器:Enter
+
+[ 2017-02-28T11:42:47+08:00 ] 127.0.0.1 /assets/css/nav.css
+ERR: 无法加载控制器:Assets
+
+[ 2017-02-28T11:42:47+08:00 ] 127.0.0.1 /assets/css/enter.css
+ERR: 无法加载控制器:Assets
+
+[ 2017-02-28T11:42:47+08:00 ] 127.0.0.1 /bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T11:42:47+08:00 ] 127.0.0.1 /bower_components/jquery-ui-1.11.4.custom/jquery-ui.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T11:42:47+08:00 ] 127.0.0.1 /bower_components/bootstrap/dist/css/bootstrap.css
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T11:42:47+08:00 ] 127.0.0.1 /bower_components/jquery-ui-1.11.4.custom/external/jquery/jquery.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T11:42:47+08:00 ] 127.0.0.1 /assets/js/nav.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-02-28T11:42:47+08:00 ] 127.0.0.1 /bower_components/jquery-ui-1.11.4.custom/jquery-ui.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T11:42:47+08:00 ] 127.0.0.1 /bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T11:42:47+08:00 ] 127.0.0.1 /assets/js/nav.js
+ERR: 无法加载控制器:Assets
+
+[ 2017-02-28T11:42:59+08:00 ] 127.0.0.1 /enter.html
+ERR: 无法加载控制器:Enter
+
+[ 2017-02-28T14:05:31+08:00 ] 127.0.0.1 /information.html
+ERR: 无法加载控制器:Information
+
+[ 2017-02-28T14:05:36+08:00 ] 127.0.0.1 /enter.html
+ERR: 无法加载控制器:Enter
+
+[ 2017-02-28T14:05:44+08:00 ] 127.0.0.1 /enter.html
+ERR: 无法加载控制器:Enter
+
+[ 2017-02-28T14:05:48+08:00 ] 127.0.0.1 /enter.html
+ERR: 无法加载控制器:Enter
+
+[ 2017-02-28T14:07:38+08:00 ] 127.0.0.1 /enter.html
+ERR: 无法加载控制器:Enter
+
+[ 2017-02-28T14:10:30+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/css/bootstrap.css
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:10:30+08:00 ] 127.0.0.1 /index.php/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:10:30+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:10:30+08:00 ] 127.0.0.1 /index.php/Info/assets/css/information.css
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:10:30+08:00 ] 127.0.0.1 /index.php/Info/assets/css/nav.css
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:10:30+08:00 ] 127.0.0.1 /index.php/bower_components/jquery/dist/jquery.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:10:30+08:00 ] 127.0.0.1 /index.php/Info/app.js
+ERR: 非法操作:app.js
+
+[ 2017-02-28T14:10:30+08:00 ] 127.0.0.1 /index.php/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:10:30+08:00 ] 127.0.0.1 /index.php/Info/router/uiRouter.js
+ERR: 非法操作:router
+
+[ 2017-02-28T14:10:30+08:00 ] 127.0.0.1 /index.php/Info/controller/indexCtrl.js
+ERR: 非法操作:controller
+
+[ 2017-02-28T14:10:30+08:00 ] 127.0.0.1 /index.php/Info/run/run.js
+ERR: 非法操作:run
+
+[ 2017-02-28T14:10:30+08:00 ] 127.0.0.1 /index.php/Info/server/basePath.js
+ERR: 非法操作:server
+
+[ 2017-02-28T14:10:30+08:00 ] 127.0.0.1 /index.php/Info/assets/js/nav.js
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:10:30+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:10:30+08:00 ] 127.0.0.1 /index.php/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:10:30+08:00 ] 127.0.0.1 /index.php/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:10:30+08:00 ] 127.0.0.1 /index.php/Info/app.js
+ERR: 非法操作:app.js
+
+[ 2017-02-28T14:10:30+08:00 ] 127.0.0.1 /index.php/Info/router/uiRouter.js
+ERR: 非法操作:router
+
+[ 2017-02-28T14:10:30+08:00 ] 127.0.0.1 /index.php/Info/run/run.js
+ERR: 非法操作:run
+
+[ 2017-02-28T14:10:31+08:00 ] 127.0.0.1 /index.php/Info/server/basePath.js
+ERR: 非法操作:server
+
+[ 2017-02-28T14:10:31+08:00 ] 127.0.0.1 /index.php/Info/controller/indexCtrl.js
+ERR: 非法操作:controller
+
+[ 2017-02-28T14:10:31+08:00 ] 127.0.0.1 /index.php/Info/assets/js/nav.js
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:11:05+08:00 ] 127.0.0.1 /index.php/Dynamic/assets/css/nav.css
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:11:05+08:00 ] 127.0.0.1 /index.php/Dynamic/assets/css/dynamic.css
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:11:05+08:00 ] 127.0.0.1 /index.php/bower_components/jquery-ui-1.11.4.custom/jquery-ui.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:11:05+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:11:05+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/css/bootstrap.css
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:11:05+08:00 ] 127.0.0.1 /index.php/bower_components/jquery-ui-1.11.4.custom/external/jquery/jquery.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:11:05+08:00 ] 127.0.0.1 /index.php/Dynamic/assets/js/nav.js
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:11:05+08:00 ] 127.0.0.1 /index.php/bower_components/jquery-ui-1.11.4.custom/jquery-ui.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:11:05+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:11:05+08:00 ] 127.0.0.1 /index.php/Dynamic/assets/js/nav.js
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:11:36+08:00 ] 127.0.0.1 /index.php/Info/assets/css/information.css
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:11:36+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:11:36+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/css/bootstrap.css
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:11:36+08:00 ] 127.0.0.1 /index.php/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:11:36+08:00 ] 127.0.0.1 /index.php/Info/assets/css/nav.css
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:11:36+08:00 ] 127.0.0.1 /index.php/bower_components/jquery/dist/jquery.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:11:36+08:00 ] 127.0.0.1 /index.php/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:11:36+08:00 ] 127.0.0.1 /index.php/Info/router/uiRouter.js
+ERR: 非法操作:router
+
+[ 2017-02-28T14:11:36+08:00 ] 127.0.0.1 /index.php/Info/run/run.js
+ERR: 非法操作:run
+
+[ 2017-02-28T14:11:36+08:00 ] 127.0.0.1 /index.php/Info/app.js
+ERR: 非法操作:app.js
+
+[ 2017-02-28T14:11:36+08:00 ] 127.0.0.1 /index.php/Info/server/basePath.js
+ERR: 非法操作:server
+
+[ 2017-02-28T14:11:36+08:00 ] 127.0.0.1 /index.php/Info/controller/indexCtrl.js
+ERR: 非法操作:controller
+
+[ 2017-02-28T14:11:36+08:00 ] 127.0.0.1 /index.php/Info/assets/js/nav.js
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:11:36+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:11:36+08:00 ] 127.0.0.1 /index.php/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:11:36+08:00 ] 127.0.0.1 /index.php/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:11:36+08:00 ] 127.0.0.1 /index.php/Info/app.js
+ERR: 非法操作:app.js
+
+[ 2017-02-28T14:11:36+08:00 ] 127.0.0.1 /index.php/Info/router/uiRouter.js
+ERR: 非法操作:router
+
+[ 2017-02-28T14:11:36+08:00 ] 127.0.0.1 /index.php/Info/run/run.js
+ERR: 非法操作:run
+
+[ 2017-02-28T14:11:36+08:00 ] 127.0.0.1 /index.php/Info/server/basePath.js
+ERR: 非法操作:server
+
+[ 2017-02-28T14:11:36+08:00 ] 127.0.0.1 /index.php/Info/controller/indexCtrl.js
+ERR: 非法操作:controller
+
+[ 2017-02-28T14:11:36+08:00 ] 127.0.0.1 /index.php/Info/assets/js/nav.js
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:20:08+08:00 ] 127.0.0.1 /Application/Home/View/css/nav.css
+ERR: 无法加载控制器:Application
+
+[ 2017-02-28T14:20:08+08:00 ] 127.0.0.1 /Application/Home/View/css/dynamic.css
+ERR: 无法加载控制器:Application
+
+[ 2017-02-28T14:20:28+08:00 ] 127.0.0.1 /Application/Home/View/css/nav.css
+ERR: 无法加载控制器:Application
+
+[ 2017-02-28T14:20:28+08:00 ] 127.0.0.1 /Application/Home/View/css/dynamic.css
+ERR: 无法加载控制器:Application
+
+[ 2017-02-28T14:21:52+08:00 ] 127.0.0.1 /index.php/Info/assets/css/nav.css
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:21:52+08:00 ] 127.0.0.1 /index.php/bower_components/jquery/dist/jquery.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:21:52+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:21:52+08:00 ] 127.0.0.1 /index.php/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:21:52+08:00 ] 127.0.0.1 /index.php/Info/app.js
+ERR: 非法操作:app.js
+
+[ 2017-02-28T14:21:52+08:00 ] 127.0.0.1 /index.php/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:21:52+08:00 ] 127.0.0.1 /index.php/Info/router/uiRouter.js
+ERR: 非法操作:router
+
+[ 2017-02-28T14:21:52+08:00 ] 127.0.0.1 /index.php/Info/run/run.js
+ERR: 非法操作:run
+
+[ 2017-02-28T14:21:52+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/css/bootstrap.css
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:21:52+08:00 ] 127.0.0.1 /index.php/Info/server/basePath.js
+ERR: 非法操作:server
+
+[ 2017-02-28T14:21:52+08:00 ] 127.0.0.1 /index.php/Info/assets/js/nav.js
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:21:52+08:00 ] 127.0.0.1 /index.php/Info/controller/indexCtrl.js
+ERR: 非法操作:controller
+
+[ 2017-02-28T14:21:52+08:00 ] 127.0.0.1 /index.php/Info/assets/css/information.css
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:21:52+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:21:53+08:00 ] 127.0.0.1 /index.php/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:21:53+08:00 ] 127.0.0.1 /index.php/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:21:53+08:00 ] 127.0.0.1 /index.php/Info/app.js
+ERR: 非法操作:app.js
+
+[ 2017-02-28T14:21:53+08:00 ] 127.0.0.1 /index.php/Info/router/uiRouter.js
+ERR: 非法操作:router
+
+[ 2017-02-28T14:21:53+08:00 ] 127.0.0.1 /index.php/Info/run/run.js
+ERR: 非法操作:run
+
+[ 2017-02-28T14:21:53+08:00 ] 127.0.0.1 /index.php/Info/server/basePath.js
+ERR: 非法操作:server
+
+[ 2017-02-28T14:21:53+08:00 ] 127.0.0.1 /index.php/Info/controller/indexCtrl.js
+ERR: 非法操作:controller
+
+[ 2017-02-28T14:21:53+08:00 ] 127.0.0.1 /index.php/Info/assets/js/nav.js
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:27:08+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:27:08+08:00 ] 127.0.0.1 /Public/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:27:09+08:00 ] 127.0.0.1 /Public/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:27:09+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:27:13+08:00 ] 127.0.0.1 /Public/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:27:13+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:27:21+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/css/bootstrap.css
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:27:21+08:00 ] 127.0.0.1 /index.php/bower_components/jquery-ui-1.11.4.custom/jquery-ui.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:27:21+08:00 ] 127.0.0.1 /index.php/bower_components/jquery-ui-1.11.4.custom/external/jquery/jquery.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:27:21+08:00 ] 127.0.0.1 /index.php/Interaction/assets/css/interaction.css
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:27:21+08:00 ] 127.0.0.1 /index.php/Interaction/assets/css/nav.css
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:27:21+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:27:21+08:00 ] 127.0.0.1 /index.php/Interaction/assets/js/nav.js
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:27:21+08:00 ] 127.0.0.1 /index.php/bower_components/jquery-ui-1.11.4.custom/jquery-ui.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:27:21+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:27:21+08:00 ] 127.0.0.1 /index.php/Interaction/assets/js/nav.js
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:27:21+08:00 ] 127.0.0.1 /index.php/Interaction/assets/img/youth.jpeg
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:27:27+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/css/bootstrap.css
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:27:27+08:00 ] 127.0.0.1 /index.php/Website/assets/css/nav.css
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:27:27+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:27:27+08:00 ] 127.0.0.1 /index.php/bower_components/jquery-ui-1.11.4.custom/jquery-ui.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:27:27+08:00 ] 127.0.0.1 /index.php/bower_components/jquery-ui-1.11.4.custom/external/jquery/jquery.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:27:27+08:00 ] 127.0.0.1 /index.php/Website/assets/css/under.css
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:27:27+08:00 ] 127.0.0.1 /index.php/Website/assets/js/nav.js
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:27:27+08:00 ] 127.0.0.1 /index.php/bower_components/jquery-ui-1.11.4.custom/jquery-ui.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:27:27+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:27:27+08:00 ] 127.0.0.1 /index.php/Website/assets/js/nav.js
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:27:32+08:00 ] 127.0.0.1 /index.php/Interaction/assets/css/nav.css
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:27:32+08:00 ] 127.0.0.1 /index.php/bower_components/jquery-ui-1.11.4.custom/jquery-ui.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:27:32+08:00 ] 127.0.0.1 /index.php/Interaction/assets/css/interaction.css
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:27:32+08:00 ] 127.0.0.1 /index.php/bower_components/jquery-ui-1.11.4.custom/external/jquery/jquery.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:27:32+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/css/bootstrap.css
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:27:32+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:27:32+08:00 ] 127.0.0.1 /index.php/Interaction/assets/js/nav.js
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:27:32+08:00 ] 127.0.0.1 /index.php/bower_components/jquery-ui-1.11.4.custom/jquery-ui.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:27:32+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:27:32+08:00 ] 127.0.0.1 /index.php/Interaction/assets/js/nav.js
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:27:32+08:00 ] 127.0.0.1 /index.php/Interaction/assets/img/youth.jpeg
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:31:34+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/css/bootstrap.css
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:31:34+08:00 ] 127.0.0.1 /index.php/Website/assets/css/under.css
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:31:34+08:00 ] 127.0.0.1 /index.php/bower_components/jquery-ui-1.11.4.custom/jquery-ui.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:31:34+08:00 ] 127.0.0.1 /index.php/Website/assets/css/nav.css
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:31:34+08:00 ] 127.0.0.1 /index.php/bower_components/jquery-ui-1.11.4.custom/external/jquery/jquery.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:31:34+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:31:34+08:00 ] 127.0.0.1 /index.php/Website/assets/js/nav.js
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:31:34+08:00 ] 127.0.0.1 /index.php/bower_components/jquery-ui-1.11.4.custom/jquery-ui.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:31:34+08:00 ] 127.0.0.1 /index.php/bower_components/bootstrap/dist/js/bootstrap.min.js
+ERR: 无法加载控制器:Bower_components
+
+[ 2017-02-28T14:31:34+08:00 ] 127.0.0.1 /index.php/Website/assets/js/nav.js
+ERR: 非法操作:assets
+
+[ 2017-02-28T14:36:16+08:00 ] 127.0.0.1 /Public/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:36:16+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:37:41+08:00 ] 127.0.0.1 /Public/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:37:41+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:37:43+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:37:43+08:00 ] 127.0.0.1 /Public/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:37:43+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:37:44+08:00 ] 127.0.0.1 /Public/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:37:44+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:38:52+08:00 ] 127.0.0.1 /Public/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:38:52+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:38:57+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:38:57+08:00 ] 127.0.0.1 /Public/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:38:57+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:53:27+08:00 ] 127.0.0.1 /Public/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:53:27+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:53:43+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:53:43+08:00 ] 127.0.0.1 /Public/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:53:43+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:53:44+08:00 ] 127.0.0.1 /Public/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:53:44+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:54:13+08:00 ] 127.0.0.1 /Public/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:54:13+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:59:34+08:00 ] 127.0.0.1 /Public/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T14:59:34+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T15:09:53+08:00 ] 127.0.0.1 /Public/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T15:09:53+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T15:09:58+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T15:09:58+08:00 ] 127.0.0.1 /Public/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T15:09:58+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T15:10:09+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T15:10:09+08:00 ] 127.0.0.1 /Public/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T15:10:09+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T15:10:19+08:00 ] 127.0.0.1 /Public/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T15:10:19+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T16:11:57+08:00 ] 127.0.0.1 /Public/bower_components/angular/angular.min.js
+ERR: 无法加载控制器:Public
+
+[ 2017-02-28T16:11:57+08:00 ] 127.0.0.1 /Public/bower_components/angular-ui-router/release/angular-ui-router.min.js
+ERR: 无法加载控制器:Public
+

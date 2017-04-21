@@ -1,0 +1,12 @@
+[ 2017-03-22T17:02:58+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : name="month" value="{$vo.add_time|date="m",###}" 
+
+[ 2017-03-22T17:03:39+08:00 ] 127.0.0.1 /
+ERR: XML标签语法错误 : name="month" value="$vo.add_time|date="m",###" 
+
+[ 2017-03-22T17:11:27+08:00 ] 127.0.0.1 /index.php/Home/Dynamin/index.html
+ERR: 无法加载控制器:Dynamin
+
+[ 2017-03-22T17:11:40+08:00 ] 127.0.0.1 /index.php/Home/Dynamin/index.html
+ERR: 无法加载控制器:Dynamin
+

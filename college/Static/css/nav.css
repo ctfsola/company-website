@@ -1,0 +1,362 @@
+/*最顶部固定导航*/
+header{
+    font-size: 16px;
+    font-family:微软雅黑;
+}
+.nav-top {
+    height: 35px;
+    background-color: #0c2c67;
+}
+.nav-top ul {
+    list-style: none;
+    padding-top: .5em;
+    margin-bottom: 0;
+    padding-right: 0;
+}
+.nav-top ul li a {
+    float: left;
+    color: #ffffff;
+    padding: 0 1em;
+    border-right: 1px solid #3990E8;
+    font-size: 12px;
+}
+.nav-top ul li a:hover {
+    text-decoration: none;
+    color: #3990E8;
+    cursor: pointer;
+}
+/*搜索框*/
+.search-box {
+    /*width: 20em;*/
+    /*height: 1.5em;!important;*/
+    float: right;
+    /*margin-top: -1em;*/
+    /*margin-right: 4em;*/
+}
+.form-control1 {
+    height: 28px;
+}
+.form-group{
+ margin-bottom: 0;
+}
+.input-group1 {
+    margin-top: 3px;
+}
+.input-group-addon {
+    background-color: #25609d;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+}
+.searchLan11{
+    margin-bottom: 0;
+    margin: 8px 30px;
+}
+.searchLan {
+    visibility: hidden;
+    position: absolute;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    top: 84px;
+    background-color: #e6e9ee;
+    color: white;
+}
+.searchLan1 {
+    visibility: visible;
+    position: absolute;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    top: 84px;
+    background-color: #e6e9ee;
+    color: white;
+}
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+    height: 4px;
+    width: 30px;
+    margin: 6px;
+}
+/*中英文切换按钮*/
+.btn-group {
+    float: right;
+    border: 0;
+    padding-right: 0;
+}
+.qieHan {
+    padding: 3px 12px;
+    margin-top: 3px;
+}
+.btn-group label {
+    background-color: #ffffff;
+    color: #27619e;
+}
+.btn-group label.active {
+    background-color: #25609d;
+    color: #ffffff;
+}
+/*导航条*/
+/*左边按钮*/
+.menu {
+    float: left;
+    margin: 16px;
+    height: 45px;
+    width: 45px;
+    background-color: #0d295b;
+    transition: all 0.40s ease-out;
+}
+.over {
+    transform: scale(100);
+    transition: all 0.350s ease-in;
+    cursor: default;
+    position: relative;
+}
+.menu-espanso {
+    background-color: transparent;
+    position: absolute;
+    width: 77px;
+
+    top: 0px;
+    left: 0px;
+    overflow: hidden !important;
+    z-index: 5;
+    display: none;
+}
+.menu-espanso2{
+    background-color: transparent;
+    position: absolute;
+    width: 240px;
+    top: 0px;
+    left: 0px;
+    overflow: hidden !important;
+    z-index: 5;
+    display: none;
+}
+.linee {
+    cursor: pointer;
+    height: 4px;
+    width: 30px;
+    position: absolute;
+    background: #fff;
+    margin: 6px;
+
+}
+.linea1 {
+    left: 20px;
+    top: 25px;
+}
+.linea2 {
+    left: 20px;
+    top: 35px;
+}
+.linea3 {
+    left: 20px;
+    top:45px;
+}
+.voci-menu {
+    top: 60px;
+}
+/*这是左侧汉堡按钮的效果*/
+.overL1 {
+    animation: closetop 1s forwards;
+    animation-direction: alternate;
+    cursor: pointer;
+}
+.overL2 {
+    opacity: 0;
+    transition: opacity 0.5s;
+    cursor: pointer;
+}
+.overL3 {
+    animation: closebottom 1s forwards;
+    animation-direction: alternate;
+    cursor: pointer;
+}
+@keyframes closetop {
+    0% {
+        transform: translateY(10px) rotate(0deg);
+    }
+    25% {
+        transform: translateY(10px) rotate(0deg);
+    }
+    75% {
+        transform: translateY(10px) rotate(-45deg);
+    }
+    100% {
+        transform: translateY(10px) rotate(-45deg);
+    }
+}
+@keyframes closebottom {
+    0% {
+        transform: translateY(-10px) rotate(0deg);
+    }
+    25% {
+        transform: translateY(-10px) rotate(0deg);
+    }
+    75% {
+        transform: translateY(-10px) rotate(45deg);
+    }
+    100% {
+        transform: translateY(-10px) rotate(45deg);
+    }
+}
+/*按钮点击出现列表*/
+/*.overvoci {*/
+    /*opacity: 1;*/
+    /*transition: all 0.400s;*/
+    /*transition-delay: 0.370s;*/
+/*}*/
+.voci-menu ul {
+    list-style-type: none;
+    z-index: 600;
+}
+.leftNavLi  {
+    float: left;
+    text-decoration: none;
+    color: #0c9bf9;
+    font-size: 16px;
+    padding: 20px;
+    width: 240px;
+    text-align: center;
+    visibility: hidden;
+    display: none;
+    position: relative;
+    z-index: 888;
+}
+.leftNavLi1  {
+    float: left;
+    text-decoration: none;
+    color: #0c9bf9;
+    font-size: 16px;
+    padding: 20px;
+    width: 240px;
+    text-align: center;
+    visibility: visible;
+    display: block;
+    position: relative;
+    z-index: 888;
+}
+.voci-menu ul li a:hover {
+    opacity: 0.7;
+}
+nav {
+    height: 84px;
+    background-color: #0B275A;
+    /*position: absolute;*/
+}
+.logo {
+    display: block;
+    text-align: center;
+    /*float: left;*/
+    margin: 0 auto;
+    background: url("../img/logo-bg.png");
+    height: 97px;
+    width: 197px;
+}
+.logo img {
+    margin-top: 0;
+    padding-top: 0;
+}
+.nav-listBox {
+    margin-top: -97px;
+}
+.nav-listBox ul li a {
+    color: #0c9bf9;
+}
+.nav-listBox ul li a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+header {
+    position: relative;
+    z-index: 999;
+}
+.navSearchBtn{
+    margin: 14px 10px 14px 14px;
+    float: right;
+    background-color: #0B275A;
+    color: #ffffff;
+    border: 0;
+    display: none;
+    padding: 14px 14px 14px 5px;
+    font-size: 26px;
+}
+@media (min-width: 768px) {
+    nav .nav-list1 {
+        padding-right: 98px;
+        margin-bottom: 0px;
+        float: left;
+    }
+    nav .nav-list2 {
+        padding-left: 98px;
+        margin-bottom: 0px;
+    }
+    nav .nav-list1 {
+        width: 50%;
+        display: table;
+    }
+    nav .nav-list2 {
+        width: 50%;
+        display: table;
+        margin-top: 0px;!important;
+        margin-bottom: -1px;
+    }
+    nav .nav-list1 li, .nav-list2 li {
+        text-align: center;
+        line-height: 84px;
+        display: table-cell;
+    }
+}
+@media (max-width: 767px) {
+    .nav-listBox {
+        display: none;
+    }
+    .nav-top {
+        display: none;
+    }
+    .menu-espanso {
+        display: block;
+    }
+    .navSearchBtn{
+        display: block;
+    }
+    .nav-listBox{
+        margin-top: -13px;
+        margin-left: -15px;
+        padding-left: -15px;!important;
+    }
+    nav .nav-list1 li,nav .nav-list2 li{
+        display: block;
+        border-top: 1px solid #0c9bf9;
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+    }
+    nav .nav-list1 ,nav .nav-list2{
+        width: 150px;
+        background-color: #0d295b;
+    }
+}
+/*回缩的导航颜色*/
+.sub-navAll1 a li{
+    background: #0d295b;
+    color: #0c9bf9;
+    border-bottom: 1px dotted rgba(255,255,255,0.2);
+}
+.sub-navAll2 a li{
+    background: #222222;
+    color: #55b8f5;
+    border-bottom: 1px dotted rgba(255,255,255,0.2);
+}
+.sub-navAll2 a li:hover{
+    background: #151515;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.sub-navAll1 a li:hover{
+    background: #0A2B66;
+    color: #FFFFFF;
+    font-weight: bold;
+}

@@ -1,0 +1,13 @@
+[ 2017-03-09T14:34:03+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+ERR: Think\Controller:get_lastest方法不存在！
+
+[ 2017-03-09T15:15:06+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+ERR: Think\Controller:get_lastest方法不存在！
+
+[ 2017-03-09T17:21:50+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+ERR: 1054:Unknown column 'noti_title' in 'field list'
+ [ SQL语句 ] : SELECT `noti_title`,`noti_content`,`link`,`thumb_url`,`add_time` FROM `coll_notice` WHERE `is_show` = 1 ORDER BY add_time desc 
+
+[ 2017-03-09T17:35:36+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+ERR: 非法数据对象！
+

@@ -1,0 +1,8 @@
+[ 2017-04-13T14:11:29+08:00 ] 127.0.0.1 /
+ERR: 1146:Table 'college.coll_article_combine' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `coll_article_combine`
+
+[ 2017-04-13T22:14:28+08:00 ] 127.0.0.1 /
+ERR: 1054:Unknown column 'link' in 'field list'
+ [ SQL语句 ] : SELECT `title`,`content`,`link`,`thumb_url`,`add_time` FROM `coll_news` WHERE `is_show` = 1 ORDER BY add_time desc 
+
